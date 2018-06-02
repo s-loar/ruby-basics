@@ -17,7 +17,7 @@ class Gadget
   end
 
   private
-  
+    
     def generate_production_number
       start_digits = rand(10000..99999)
       end_digits = rand(10000..99999)
