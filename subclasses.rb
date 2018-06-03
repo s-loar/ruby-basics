@@ -29,3 +29,8 @@ puts jake.introduce
 
 dan = Worker.new("Dan", 22)
 puts dan.introduce
+
+puts jake.is_a?(Manager)
+puts jake.is_a?(Employee)
+puts jake.instance_of?(Manager)
+puts jake.instance_of?(Employee)
